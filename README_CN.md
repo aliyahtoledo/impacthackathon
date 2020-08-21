@@ -1,28 +1,24 @@
 # gentelella
 
-Gentelella Admin is a free to use Bootstrap admin template.
-This template uses the default Bootstrap 4 styles along with a variety of powerful jQuery plugins and tools to create a powerful framework for creating admin panels or back-end dashboards.
+Gentelella 管理后台是一个免费使用的Bootstrap管理模版。
+这个模版默认使用Bootstrap 3 风格，还有一系列强大的jQuery插件和工具去创造一个强大的框架，用来创建管理面板或者后端仪表盘。
+该主题使用了不同的库，用来创建表格，日历，表单验证，引导式风格的接口，导航菜单，文本表格，日期范围，上传区域，表格自动填充，范围滑块，进度条，提示以及更多。
+我们很乐意看到你使用这个令人惊叹的管理模版。你可以通过tweet [@colorlib](https://twitter.com/colorlib)告知我们你的网站，app或者服务。一旦列表量够了，我们将会写一篇文章去展示这个最佳案例[this](https://colorlib.com/wp/avada-theme-examples/)。
 
-Theme uses several libraries for charts, calendar, form validation, wizard style interface, off-canvas navigation menu, text forms, date range, upload area, form autocomplete, range slider, progress bars, notifications and much more.
+## 主题例子
+![Gentelella Bootstrap 管理模版](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg 
+"Gentelella 主题浏览器预览")
 
-We would love to see how you use this awesome admin template. You can notify us about your site, app or service by tweeting to [@colorlib](https://twitter.com/colorlib). Once the list will grown long enough we will write a post similar to [this](https://colorlib.com/wp/avada-theme-examples/) to showcase the best examples.
+**[模版例子](https://colorlib.com/polygon/gentelella/index.html)**
 
+## 文档
 
-## Theme Demo
-![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg 
-"Gentelella Theme Browser Preview")
+**[文档](https://puikinsh.github.io/gentelella/)**
 
-**[Template Demo](https://colorlib.com/polygon/gentelella/index.html)**
+## 通过Package Manager安装
 
-## Documentation
-
-**[Documentation](https://colorlibhq.github.io/gentelella/)**
-
-## Installation via Package Manager
-
-Our goal is to make it installable on different Package Manager! Do you want to use it on your favorite Package Manager and you know how? Pull request all the way! 
-
-As of now, this is some installation available:
+我们的目标是使它在不同的包管理器中都可以安装！你有你倾向使用的包管理器还有你知道为什么吗？随时随地通过pull request告诉我们！
+现在这是一些可以安装的包管理器：
 
 **Bower**
 
@@ -41,26 +37,25 @@ npm install gentelella --save
 ```
 yarn add gentelella
 ```
-## How to contribute
-To contribute, please ensure that you have stable [Node.js](https://nodejs.org/) and [npm](https://npmjs.com) installed.
+## 如何贡献
+为了贡献，请确保你安装有稳定的 [Node.js](https://nodejs.org/) 和[npm](https://npmjs.com)
+测试Gulp CLI 是否安装，可以运行`gulp --version`.如果命令行没有找到，运行`npm install -g gulp`。关于更多如何安装Gulp,可以看一下Gulp的使用指南[Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)。
 
-Test if Gulp CLI is installed by running `gulp --version`.  If the command isn't found, run `npm install -g gulp`.  For more information about installing Gulp, see the Gulp's [Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
+安装所有的gulp依赖，可以运行```npm install```
 
-To have all gulp dependencies run ```npm install```
+如果`gulp` 已经安装了，遵循一下的步骤。
 
-If `gulp` is installed, follow the steps below.
+1. Fork和克隆这个仓库
+2. 运行`gulp`,会在你的默认浏览器中运行 gentelella 。
+3. 现在你可以开始写代码了！
+4. 提交一个pull request
 
-1. Fork and clone the repo.
-2. Run `gulp`, this will open gentelella on your default browser
-3. Now you can code, code and code!
-4. Submit a pull request
-
-## Gentelella for other platforms and frameworks
+## Gentelella 在其它平台和框架
 
 * [Gentelella on Ruby on Rails 4](https://github.com/iogbole/gentelella_on_rails) thanks to Israel Ogbole.
 * [Gentelella on Rails 5.x](https://github.com/mwlang/gentelella-rails) thanks to Michael Lang
 * [Gentelella on Smarty 3](https://github.com/microvb/otp-thing) with one time password generator, validator, and QR code generator that has no web dependencies (self-contained) in PHP thanks to MicroVB INC
-* [Gentelella integrated into Symfony 5](https://github.com/mamless/Gentella-admin-Symfony-5) full stack PHP framework thanks to  Mamour Wane.
+* [Gentelella integrated into Symfony 3](https://github.com/krzysiekpiasecki/Gentelella) full stack PHP framework thanks to Krzysztof Piasecki.
 * [Gentelella on Yii framework 2](https://github.com/yiister/yii2-gentelella) with an asset bundle, a layout template and some widgets.
 * [Gentelella on Angular 2](https://github.com/kmkatsma/angular2-webpack-starter-gentelella) Angular Webpack Starter modified to utilize the Gentelella.
 * [Gentelella on Aurelia](https://github.com/kmkatsma/aurelia-gentelella) Typescript webpack skeleton modified to utilize the Gentelella.
@@ -70,11 +65,10 @@ If `gulp` is installed, follow the steps below.
 * [Gentelella on CakePHP 3](https://github.com/backstageel/cakephp-gentelella-theme) Gentelella modified to work on CakePHP
 * [Gentelella right to left](https://github.com/mortezakarimi/gentelella-rtl) Gentelella modified to work with right to left languages like Persian
 * [Gentelella-rtl on Yii framework 2](https://github.com/mortezakarimi/yii2-gentelella-rtl) with an asset bundle, a layout template and some widgets. inspired from [Gentelella on Yii framework 2](https://github.com/yiister/yii2-gentelella)
-* [Gentelella by React](https://github.com/thomaslwq/react-admin) Gentelella realized by React
 
-Let us know if you have done integration for this admin template on other platforms and frameworks and we'll be happy to share your work.
+让我们知道你是否为其它管理模版或者平台、框架集成了Gentelella,我们会很乐意分享你的工作。
 
-## Scripts included:
+## Scripts 包括:
 * Bootstrap
 * Font Awesome
 * jQuery-Autocomplete
@@ -112,7 +106,7 @@ Let us know if you have done integration for this admin template on other platfo
 * validator - HTML from validator using jQuery
 * jQuery Smart Wizard
 
-## Other templates and useful resources
+## 其它模版和有用的资源
 * [Free Bootstrap Admin Templates](https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/ "Bootstrap Admin Templates on Colorlib") - List of the best Free Bootstrap admin dashboard templates that are available for free for personal and commercial use.
 * [Free Admin Templates](https://colorlib.com/wp/free-html5-admin-dashboard-templates/ "List of free HTML based admin templates by Colorlib") - Long list of the best free HTML5 powered admin dashboard templates. Available for personal and commercial use.
 * [Angular Templates](https://colorlib.com/wp/angularjs-admin-templates/ "Angular Admin Templates on Colorlib") - List of the most popular admin templates based on AngularJS.
